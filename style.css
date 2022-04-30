@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway',sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3em;
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1527314392553-2c7bded21b23?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80')no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.logo {
+  color: #00ff00;
+  font-size: 2em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  padding: 1.4em;
+  font-size: 1.2em;
+  color: #ffff00;
+}
+
+.nav li a:hover{
+  color: #00ff00;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 275px auto;
+}
+
+h1 {
+  color: #00ff00;
+  font-size: 2em;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+p {
+  padding: 0 4em;
+  line-height: 1.7;
+  color: rgba(255, 255, 0, 0.336);
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  transition: all .3s ease-in-out;
+}
+
+p:hover {
+  cursor: pointer;
+  color: #00ff00;
+}
